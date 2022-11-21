@@ -4,9 +4,14 @@ namespace Simkezelo
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Kartyakezelo kk = new Kartyakezelo();
+            kk.menu();
+            
+            
         }
+        
     }
 }
